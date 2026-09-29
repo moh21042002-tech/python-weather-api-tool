@@ -49,19 +49,6 @@ def fetch_weather_data(city_name):
     except requests.exceptions.RequestException as e:
         print(f"[-] Connection Error: {e}")
         return None
-💻 How to run:
-Clone the repository:
-
-Bash
-git clone [https://github.com/moh21042002-tech/python-weather-api-tool.git](https://github.com/moh21042002-tech/python-weather-api-tool.git)
-Install dependencies:
-
-Bash
-pip install requests
-Run the script:
-
-Bash
-python main.py
 
 if __name__ == "__main__":
     print("=== Python API Integration Utility ===")
